@@ -1,0 +1,40 @@
+# =========================
+# Python virtual envs
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Python cache / build
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Excel files (hard block)
+# =========================
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+
+backend/db.sqlite3
+"frontend/.env.production"
+
+"backend\lifetime\settings.py"
