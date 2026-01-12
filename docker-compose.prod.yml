@@ -1,0 +1,10 @@
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: lifetime-v1-backend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8007:8000"

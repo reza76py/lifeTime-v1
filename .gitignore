@@ -35,6 +35,9 @@ Thumbs.db
 
 
 backend/db.sqlite3
-"frontend/.env.production"
 
-"backend\lifetime\settings.py"
+
+backend/lifetime/settings.py
+backend/Dockerfile
+frontend/Dockerfile
+frontend/src/api/client.ts
