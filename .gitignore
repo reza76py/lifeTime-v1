@@ -41,3 +41,4 @@ backend/lifetime/settings.py
 backend/Dockerfile
 frontend/Dockerfile
 frontend/src/api/client.ts
+docker-compose.prod.yml
